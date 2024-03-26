@@ -3,6 +3,8 @@ import axios from "axios";
 import PercentChange from "./PercentChange";
 import colors from "../styles/_settings.scss";
 import TableFilters from "./TableFilters";
+import logo from "../assets/logo.png";
+
 
 const HeaderInfos = () => {
   const [headerData, setHeaderData] = useState([]);
@@ -22,7 +24,7 @@ const HeaderInfos = () => {
       <ul className="title">
         <li>
           <h1>
-            <img src="./assets/logo.png" alt="" /> Watch Tower
+            <img src={logo} alt="" /> Watch Tower
           </h1>
         </li>
         <li>

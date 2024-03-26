@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import starFull from "../assets/star-full.svg";
+import starEmpty from "../assets/star-empty.svg";
 
 const StarIcon = ({ coinId }) => {
   const [like, setLike] = useState(false);
@@ -37,7 +39,7 @@ const StarIcon = ({ coinId }) => {
   return (
     <img
       onClick={() => idChecker(coinId)}
-      src={like ? "./assets/star-full.svg" : "./assets/star-empty.svg"}
+      src={like ? starFull : starEmpty}
       alt="icon-star"
     />
   );

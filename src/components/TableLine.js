@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import CoinChart from "./CoinChart";
 import PercentChange from "./PercentChange";
 import StarIcon from "./StarIcon";
+import chartIcon from "../assets/chart-icon.svg";
+import infoIcon from "../assets/info-icon.svg";
 
 const TableLine = ({ coin, index }) => {
   const [showChart, setShowChart] = useState(false);
@@ -48,7 +50,7 @@ const TableLine = ({ coin, index }) => {
             }}
             onMouseLeave={() => setShowChart(false)}
           >
-            <img src="./assets/chart-icon.svg" alt="chart-icon" />
+            <img src={chartIcon} alt="chart-icon" />
             {showChart && (
               <div
                 className="chart-container"
@@ -76,7 +78,7 @@ const TableLine = ({ coin, index }) => {
               coin.id.toLowerCase()
             }
           >
-            <img src="./assets/info-icon.svg" alt="info-icon" />
+            <img src={infoIcon} alt="info-icon" />
           </a>
         </div>
       </div>

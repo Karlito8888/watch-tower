@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { setListDisplay } from "../action/list.action";
 import { setStableState } from "../action/stable.action";
+import starFull from "../assets/star-full.svg";
 
 const TableFilters = () => {
   const [showStable, setShowStable] = useState(true);
@@ -38,7 +39,7 @@ const TableFilters = () => {
           onClick={() => setShowFavList(true)}
         >
           <p>Liste des favoris</p>
-          <img src="./assets/star-full.svg" alt="icon-star" />
+          <img src={starFull} alt="icon-star" />
         </div>
       </div>
     </div>

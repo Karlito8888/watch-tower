@@ -1,10 +1,11 @@
 import React from "react";
+import arrowIcon from "../assets/arrow-icon.svg";
 
 const ToTop = () => {
   return (
     <div className="top">
       <img
-        src="./assets/arrow-icon.svg"
+        src={arrowIcon}
         alt="arrow"
         onClick={() => window.scrollTo(0, 0)}
       />
