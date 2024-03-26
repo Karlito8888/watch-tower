@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c12c617c.css",
-    "main.js": "/static/js/main.90ff93be.js",
-    "index.html": "/index.html",
-    "main.c12c617c.css.map": "/static/css/main.c12c617c.css.map",
-    "main.90ff93be.js.map": "/static/js/main.90ff93be.js.map"
+    "main.css": "/watch-tower/static/css/main.c12c617c.css",
+    "main.js": "/watch-tower/static/js/main.d1af16b4.js",
+    "static/media/logo.png": "/watch-tower/static/media/logo.98d41517c24e28874cb4.png",
+    "static/media/chart-icon.svg": "/watch-tower/static/media/chart-icon.a712c7d225b00780c35153377085a0d9.svg",
+    "static/media/arrow-icon.svg": "/watch-tower/static/media/arrow-icon.3bf39a09d9b8623cfb905b6955662d84.svg",
+    "static/media/info-icon.svg": "/watch-tower/static/media/info-icon.c434c9fa23449a3ec82022cd685c4ada.svg",
+    "static/media/star-full.svg": "/watch-tower/static/media/star-full.828b4bd110d0912be5b3ae4943f41ecc.svg",
+    "static/media/star-empty.svg": "/watch-tower/static/media/star-empty.4bab635e0ed9e235dfe0e4b211e4f2f7.svg",
+    "index.html": "/watch-tower/index.html",
+    "main.c12c617c.css.map": "/watch-tower/static/css/main.c12c617c.css.map",
+    "main.d1af16b4.js.map": "/watch-tower/static/js/main.d1af16b4.js.map"
   },
   "entrypoints": [
     "static/css/main.c12c617c.css",
-    "static/js/main.90ff93be.js"
+    "static/js/main.d1af16b4.js"
   ]
 }
